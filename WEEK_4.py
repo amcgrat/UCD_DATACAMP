@@ -10,4 +10,8 @@ netflix_data = pd.read_csv(r"C:\Users\amcgrat\\Desktop\netflix_titles.csv")
 
 #Count missing values in each column
 missing_values_count = netflix_data.isnull().sum()
-print(missing_values_count[0:])
+#print(missing_values_count[0:])
+
+#Drop rows where data is missing
+droprows= netflix_data.dropna()
+print(netflix_data.shape,droprows.shape)
