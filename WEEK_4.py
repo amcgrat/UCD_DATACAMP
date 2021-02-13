@@ -34,3 +34,4 @@ print(netflix_data.shape,drop_duplicates.shape)
 #Drop Duplicate Rows based on specific columns
 drop_duplicates= netflix_data.drop_duplicates(subset=['show_id'])
 print(netflix_data.shape,drop_duplicates.shape)
+
