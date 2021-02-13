@@ -1,8 +1,11 @@
 import pandas as pd
 import numpy as np
 
+
+#REad the csv file.
 netflix_data = pd.read_csv (r"C:\Users\amcgrat\PycharmProjects\WEEK_4_PROJ\netflix_titles.csv")
 
+#Take a look at the data
 print(netflix_data.head())
 print(netflix_data.shape)
 
